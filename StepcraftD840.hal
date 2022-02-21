@@ -22,12 +22,11 @@ addf pid.s.do-pid-calcs       servo-thread
 addf hm2_6i25.0.write         servo-thread
 
 # external output signals
+# --- SPINDLE-ENABLE ---
+setp hm2_6i25.0.gpio.000.is_output true
+net spindle-enable => hm2_6i25.0.gpio.000.out
 
 # external input signals
-
-# --- SPINDLE-MANUAL-STOP ---
-net spindle-manual-stop     <=  hm2_6i25.0.gpio.000.in
-
 # --- PROBE-IN ---
 net probe-in     <=  hm2_6i25.0.gpio.013.in
 
