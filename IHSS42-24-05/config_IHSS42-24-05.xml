@@ -291,7 +291,7 @@
     </PA_15>
     <PA_16>
       <Definition>Position error limit</Definition>
-      <Value>400</Value>
+      <Value>150</Value>
       <Range>0-4000</Range>
       <DefaultValue>Reserved</DefaultValue>
       <Dimension>Reserved</Dimension>
