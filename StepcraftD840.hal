@@ -36,6 +36,9 @@ net estop-ext     <=  hm2_6i25.0.gpio.014.in_not
 # --- ALL-HOME ---
 net all-home     <=  hm2_6i25.0.gpio.015.in
 
+# --- Drive ALM ---
+net x-fault => joint.0.amp-fault-in <= hm2_6i25.0.gpio.003.in_not
+
 #*******************
 #  AXIS X JOINT 0
 #*******************
