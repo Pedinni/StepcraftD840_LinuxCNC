@@ -19,7 +19,7 @@ G92.1    (Cancel G92 offset)
 #<tool_touch_z_coords> = #5183
 
 #<tool_radius_offset> = [#<tool_diameter> / 2]
-#<offset_probing_position> = [#<tool_touch_x_coords> - #<tool_radius_offset>]
+#<offset_probing_position> = [#<tool_touch_x_coords> + #<tool_radius_offset>]
 
 G59.3
 
